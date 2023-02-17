@@ -1,0 +1,23 @@
+{
+    "msg_type": "post",
+    "content": {
+        "post": {
+            "zh_cn": {
+                "title": "${APP_NAME}-#${BUILD_NUMBER}",
+                "content": [
+                    [
+                        {
+                            "tag": "text",
+                            "text": "${FEISHU_TITLE}！分支:${BRANCH_NAME},项目有更新: "
+                        },
+                        {
+                            "tag": "a",
+                            "text": "请点击查看",
+                            "href": "${DEVOPS_URL}"
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}
